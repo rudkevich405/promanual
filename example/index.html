@@ -4,9 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Официальный сайт PROManual</title>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+    </script>
 </head>
 <body>
-    
+    <header id="header">
+        <div class="container">
+            <div class="info">
+                <img src="Шапка для YouTube.png" class="logotype"></a>
+            </div>            
+        </div>
+    </header>
+    <nav id="main-navigation">
+        <div class="container">
+            <ul>
+                <li><a href="#b-4">Обо мне</a></li>
+                <li><a href="#b-5">Мои фотографии</a></li>
+                <li><a href="#b-2">Видео</a></li>
+                <li><a href="#b-3">Блоги</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div id="information">
+                <section class="block" id="b-4">
+                    <h2>Обо мне</h2>
+                        <p>Меня зовут Роман Рудкевич. Мне 12 лет. Проживаю в Нефтекамске. Учусь в школе. Хожу на плавание, програмирование и студию "Максимум". Также у меня есть своё хобби: лепка из плстилина, создание видео, монтаж. Я играю разные компьютерные игры, такие как Geometry Dash, Kerbal Space Program, CS:GO, Minecraft и другие. 
+                        </p>
+                </section>
+            </div>
+            <section class="block" id="b-2">
+                <h2>Видео</h2>
+                <div class="block-videos aside">
+                    <a href="https://www.youtube.com/embed/Lw2gruwoYv8" data-fancybox="main-video" data-caption="Cancer challenge">
+                        <img src="https://img.youtube.com/vi/Lw2gruwoYv8/0.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+            <section class="block" id="b-3">
+                <h2>Блоги</h2>
+                <div id="section-blog">
+                    <div class="item">
+                        <div class="image"><img src="https://alluminate.ru/upload/iblock/f47/f47e4a7f5d563a060fe14898376203e3.jpeg " alt=" " class="responsive"></div>
+                        <div class="info">
+                            <div class="title">Студия "Максимум"</div>
+                            <div class="description">
+                                В студии МАКСИМУМ мы снимаемся, снимаем всякие шутки, приколы, социальные ролики и короткометражки. Наша группа состоит из 30 человек. Наши работы: "Хомяк путешественник", "Сохраним планету вместе". 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image"><img src="https://alluminate.ru/upload/iblock/f47/f47e4a7f5d563a060fe14898376203e3.jpeg " alt=" " class="responsive"></div>
+                        <div class="info">
+                            <div class="title">Плавание</div>
+                            <div class="description">
+                                Я хожу на плавание, как и на другие кружки. Я люблю плавание, потому что плавание может значительно улучшить осанку. Плавание улучшает состояние мышц спины, грудной клетки и поясницы. Положительное влияние водных процедур на иммунитет хорошо известно. Но решиться на обливание ледяной водой или даже на контрастный душ не так-то просто. А вот в бассейне холодная вода воспринимается вполне естественно, оказывая тот же закаляющий эффект.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a class="image" href="/upload/blog/geomd.PNG" data-fancybox><img src="/upload/blog/geomd.PNG" alt=" " class="responsive"></a>
+                        <div class="info">
+                            <div class="title">Geometry Dash</div>
+                            <div class="description">
+                                <p>Однажды, когда я играл в Geometry Dash, мне пришла идея создать уровень, который будет являтся демоном. Сначала я построил начало, которое состояло из названия уровня и моего ника. Потом я построил custom background, геймплей, а затем и триггеры. </p>
+                                <p>
+Уровень был достроен. Я начинаю его верифать, но попытки не увенчались успехом. Тысячи попыток. Тысячи фейлов. Из-за этого уровня я даже сумел сломать мышку. Когда мне купили геймерскую мышь я снова начал проверять "dez". Началась учёба. Я его до сих пор не верифнул. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="block" id="b-5">
+                <h2>Мои фотографии</h2>
+                <div id="section-slider">
+                    <div class="slides owl-carousel">
+                        <a href="/upload/album/20180602_150252.jpg" data-fancybox="my-photo" data-caption="text" class="slide-photo">
+                            <img src="/upload/album/20180602_150252.jpg" alt="" class="responsive">
+                        </a>
+                        <a href="/upload/album/20180921_110934.jpg" data-fancybox="my-photo" data-caption="text" class="slide-photo">
+                            <img src="/upload/album/20180921_110934.jpg" alt="" class="responsive">
+                        </a>
+                        <a href="/upload/album/20181007_153656.jpg" data-fancybox="my-photo" data-caption="text" class="slide-photo">
+                            <img src="/upload/album/20181007_153656.jpg" alt="" class="responsive">
+                        </a>
+                        <a href="/upload/album/IMG_20181004_143136.jpg" data-fancybox="my-photo" data-caption="text" class="slide-photo">
+                            <img src="/upload/album/IMG_20181004_143136.jpg" alt="" class="responsive">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="block">
+                <div id="map"></div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            Copyright &copy; 2018
+        </div>
+    </footer>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="index.js"></script>
+    <script src="C:/Users/1/My downloads/jquery-3.3.1.min.js"></script>
+    <script>
+        $("info").on("mouseenter", function() {
+            alert("Hello!");
+        });
+    </script>
 </body>
 </html>
